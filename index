@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="styles_contact.css">  
+    
+    <head>
+        <title>Contactformulier</title>
+      </head>
+      
+      <h1> How to trade in the economic world </h1>
+
+      <body>
+      
+      <p><a href="index copy 2.html" >Terug</a></p> 
+      
+      <form name="contact" method="POST" data-netlify="true">
+      <div class="container"></div>
+        <form action="action_page.php">
+
+          <label for="name">First Name</label>
+          <input type="text" id="naam" name="firstname" placeholder="Je naam">
+
+          <label for="email">e-mail</label>
+          <input type="text" id="lname" name="email" placeholder="voorbeeld@hotmail.com">
+
+          <label for="text"><textarea name="" id="" cols="30" rows="10"></textarea></label>
+          
+          <input type="submit" value="Verzenden"/>
+      
+        </form>
+  
+    </body>
